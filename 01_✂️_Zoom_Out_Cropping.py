@@ -42,10 +42,10 @@ if uploaded_img is not None:
     width, height = uploaded_img.size
 
     # Dimensions of the crop and crop the image
-    left = -(st.number_input('Crop how many pixels to the left?', min_value=100, max_value=10000, value=100, step=100))
-    right = width + (st.number_input('Crop how many pixels to the right?', min_value=100, max_value=10000, value=100, step=100))
-    top = -(st.number_input('Crop how many pixels to the top?', min_value=100, max_value=10000, value=100, step=100))
-    bottom = height + (st.number_input('Crop how many pixels to the bottom?', min_value=100, max_value=10000, value=100, step=100))
+    left = -(st.number_input('Crop how many pixels out to the left?', min_value=0, max_value=10000, value=500, step=100))
+    right = width + (st.number_input('Crop how many pixels out to the right?', min_value=0, max_value=10000, value=500, step=100))
+    top = -(st.number_input('Crop how many pixels out to the top?', min_value=0, max_value=10000, value=500, step=100))
+    bottom = height + (st.number_input('Crop how many pixels out to the bottom?', min_value=0, max_value=10000, value=500, step=100))
     cropped_img = uploaded_img.crop((left, top, right, bottom))
 
     # Replace all black pixels with transparent pixels
@@ -79,7 +79,7 @@ else:
 
     st.header("What is Zoom Out Cropping?")
     st.markdown("""
-        I don't know what to call this effect, but it's a way to crop the image outwards as if you were zooming out.
+        Out Cropping a way to crop the image outwards as if you were zooming out.
         Dalle would then be prompted to fill in the transparent pixels.
     """)
     st.markdown("Example: 'futuristic bridge across the Grand Canyon, digital art'")
