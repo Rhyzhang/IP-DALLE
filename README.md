@@ -10,6 +10,9 @@ your creations to the next level 🤩. Please feel free to use this app for your
 
 Go here [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rhyzhang-ip-dalle-01--zoom-out-cropping-rizyjy.streamlitapp.com/)
 
+## Thankyous Too... :heartpulse:
+[Streamlit](https://streamlit.io/) for the awesome library and hosting :fire:
+[OpenAi](https://openai.com/dall-e-2/) for letting us use DALLE2 :heart_eyes:
 
 ## More Information
 
