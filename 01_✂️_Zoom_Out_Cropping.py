@@ -24,10 +24,11 @@ st.sidebar.markdown("""
     your creations to the next level 🤩. Please feel free to use this app for your own purposes.
 """)
 st.sidebar.info("""
-    This app is made by [@Rhyzhang](https://github.com/Rhyzhang) and is on [GitHub](https://github.com/Rhyzhang/IP-DALLE).
+    This app is on [GitHub](https://github.com/Rhyzhang/IP-DALLE) and contributions are encouraged.
+    Go here to submit a feature request or to report a bug: [Issues](https://github.com/Rhyzhang/IP-DALLE/issues)
 """)
 
-st.title("Zoom Out Cropping Effect")
+st.title("✂️ Zoom Out Cropping Effect")
 
 uploaded_img = st.file_uploader("Upload your Dalle Generation", type=["png"])
 if uploaded_img is not None:

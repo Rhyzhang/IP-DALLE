@@ -13,5 +13,5 @@ st.set_page_config(
 st.title("🚧 Coming Soon 🚧")
 
 st.markdown("""
-    Please suggest any features you would like to see in this app!
+    Please suggest any features you would like to see in this app! Go here to submit a feature request: [GitHub](https://github.com/Rhyzhang/IP-DALLE/issues)
 """)
